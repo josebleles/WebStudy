@@ -1,0 +1,165 @@
+body {
+	background-image: url('../img/fundo.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: sans serif;
+}
+
+.titulo {
+/* 	font-family: "BigNoodleTitling"; */
+	font-size: 100px;
+	color: #99CCFF;
+	position: fixed;
+	top: calc(50% - 100px);
+	left: calc(50% - 225px);
+	cursor: context-menu;
+}
+
+.subtitulo {
+/* 	font-family: "Alegre Sans"; */
+	font-size: 27px;
+	color: white;
+	position: fixed;
+	top: calc(50% + 20px);
+	left: calc(50% - 125px);
+	cursor: context-menu;
+}
+
+.cabecalho {
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	height: 7%;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+#logo {
+/* 	font-family: "BigNoodleTitling"; */
+	font-size: 27px;
+	color: white;
+	cursor: context-menu;
+	position: fixed;
+	top: 0.5%;
+	left: 2%;
+	display: block;
+}
+
+.corpotxt {
+/* 	font-family: "Alegre Sans"; */
+	color: white;
+}
+
+#login {
+	font-size: 27px;
+	text-align: right;
+	position: fixed;
+	top: 0.5%;
+	right: 2%;
+	display: block;
+/* 	font-family: "BigNoodleTitling"; */
+	cursor: pointer;
+	color: white;
+}
+
+#divLogin {
+	top: -40%;
+	left: 37.5%;
+	height: 40%;
+	width: 25%;
+	background-color: white;
+	z-index: 10;
+	border-radius: 4px;
+	opacity: 0;
+	position: relative;
+	transition: all 2.1s;
+}
+
+#a {
+	background-color: #99CCFF;
+	position: relative;
+	top: 0%;
+	left: 0%;
+	height: 20%;
+	width: 100%;
+	border-radius: 4px 4px 0 0;
+}
+
+#wsLogin {
+/* 	font-family: "BigNoodleTitling"; */
+	font-size: 210%;
+	color: white;
+	position: relative;
+	top: 2.5%;
+	left: calc(50% - 83px);
+	cursor: context-menu;
+}
+
+.campos {
+	position: absolute;
+	left: 15%;
+	height: 13%;
+	width: 70%;
+	border-radius: 4px;
+	border-style: none;
+	background-color: rgba(238, 238, 238, 0.5);
+}
+
+#campoL {
+	top: 40%;
+}
+
+#campoS {
+	top: 55%;
+}
+
+#esqueceu {
+/* 	font-family: "Alegre Sans"; */
+	font-size: 18px;
+	color: #99CCFF;
+	position: absolute;
+	top: 69%;
+	left: 15%;
+	cursor: pointer;
+}
+
+#botaoOk {
+	background-color: #99CCFF;
+	border-style: none;
+	border-radius: 4px;
+	position: absolute;
+	top: 69%;
+	right: 15%;
+	cursor: pointer;
+/* 	font-family: "Alegre Sans"; */
+	font-size: 16px;
+	color: white;
+	width: 10%;
+	outline: none;
+}
+
+#botaoOK:hover {
+	color: #99CCFF;
+	background-color: white;
+	transition: all 0.8s;
+}
+
+#direitos {
+	color: white;
+/* 	font-family: "Alegre Sans"; */
+	font-size: 18px;
+	position: fixed;
+	bottom: 2%;
+	right: 2%;
+	cursor: context-menu;
+}
+
+a:link,a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: #99CCFF;
+	transition: all 1s;
+}
